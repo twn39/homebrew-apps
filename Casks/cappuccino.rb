@@ -7,7 +7,7 @@ cask "cappuccino" do
   desc "macOS menu bar screenshot and canvas editing tool"
   homepage "https://github.com/twn39/homebrew-apps"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Cappuccino.app"
 
